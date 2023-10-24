@@ -12,7 +12,7 @@ public class UserInfoApp {
         double weight = 79.85;
         System.out.println("Hello " + name + "\nYour weight is " + weight+ "\nAnd you´re " + age + " years old");
         System.out.println("");
-        //array
+        // Conditional
         if (args.length > 0) {
             String username = args[0];
             System.out.println("Hello, " + username + "! This is a simple Java application.");
