@@ -12,7 +12,6 @@ public class Moto extends Vehicle {
      */
     @Override
     public void reportStatus() {
-    super.reportStatus(); 
     System.out.println("Moto Make: " + make);
     System.out.println("Moto Model: " + model);
     System.out.println("Year: " + year);

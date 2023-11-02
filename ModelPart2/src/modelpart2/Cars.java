@@ -12,7 +12,6 @@ public class Cars extends Vehicle {
      */
     @Override
     public void reportStatus() {
-    super.reportStatus(); 
     System.out.println("Car Make: " + make);
     System.out.println("Car Model: " + model);
     System.out.println("Year: " + year);

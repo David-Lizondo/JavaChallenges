@@ -15,18 +15,6 @@ public abstract class Vehicle {
     public abstract void accelerate();
     public abstract void brake();
 
-    public void reportStatus() {
-        System.out.println("Make: " + make);
-        System.out.println("Model: " + model);
-        System.out.println("Year: " + year);
-    }
-
-    @Override
-    public abstract String toString();
-
-    @Override
-    public abstract int hashCode();
-
-    @Override
-    public abstract boolean equals(Object obj);
+    public abstract void reportStatus();
+   
 }

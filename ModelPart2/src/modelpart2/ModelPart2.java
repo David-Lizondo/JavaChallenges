@@ -32,9 +32,9 @@ public class ModelPart2 {
         System.out.println("");
         
         // Busses
-        Busses bus1 = new Busses("Mercedes", "Sprinter", 2022, false, true, false, 30, 8.5);
-        Busses bus2 = new Busses("Volvo", "XC90", 2023, true, false, false, 50, 7.2);
-        Busses bus3 = new Busses("Ford", "Transit", 2021, true, false, false, 20, 6.8);
+        Vehicle bus1 = new Busses("Mercedes", "Sprinter", 2022, false, true, false, 30, 8.5);
+        Vehicle bus2 = new Busses("Volvo", "XC90", 2023, true, false, false, 50, 7.2);
+        Vehicle bus3 = new Busses("Ford", "Transit", 2021, true, false, false, 20, 6.8);
 
         System.out.println("=== Bus 1 ===");
         System.out.println("");
@@ -55,11 +55,11 @@ public class ModelPart2 {
         System.out.println("");
 
         // Cars (Tesla)
-        Cars car1 = new Cars("Tesla", "Model S", 2022);
-        Cars car2 = new Cars("Tesla", "Model 3", 2023);
-        Cars car3 = new Cars("Tesla", "Model X", 2022);
-        Cars car4 = new Cars("Tesla", "Model Y", 2023);
-        Cars car5 = new Cars("Tesla", "Cybertruck", 2022);
+        Vehicle car1 = new Cars("Tesla", "Model S", 2022);
+        Vehicle car2 = new Cars("Tesla", "Model 3", 2023);
+        Vehicle car3 = new Cars("Tesla", "Model X", 2022);
+        Vehicle car4 = new Cars("Tesla", "Model Y", 2023);
+        Vehicle car5 = new Cars("Tesla", "Cybertruck", 2022);
 
         System.out.println("=== Car 1 (Tesla) ===");
         System.out.println("");
@@ -92,10 +92,10 @@ public class ModelPart2 {
         System.out.println("");
 
         // Moto
-        Moto moto1 = new Moto("Harley-Davidson", "Sportster", 2021);
-        Moto moto2 = new Moto("Kawasaki", "Ninja", 2022);
-        Moto moto3 = new Moto("Yamaha", "MT-07", 2023);
-        Moto moto4 = new Moto("Suzuki", "GSX-R1000", 2023);
+        Vehicle moto1 = new Moto("Harley-Davidson", "Sportster", 2021);
+        Vehicle moto2 = new Moto("Kawasaki", "Ninja", 2022);
+        Vehicle moto3 = new Moto("Yamaha", "MT-07", 2023);
+        Vehicle moto4 = new Moto("Suzuki", "GSX-R1000", 2023);
 
         System.out.println("=== Moto 1 ===");
         System.out.println("");
