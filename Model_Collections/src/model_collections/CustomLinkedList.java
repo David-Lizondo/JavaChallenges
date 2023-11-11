@@ -6,14 +6,13 @@ public class CustomLinkedList<T> implements Iterable<T> {
 
     private Node<T> head;
     private Node<T> tail;
-
-    // Constructor
+    
     public CustomLinkedList() {
         this.head = null;
         this.tail = null;
     }
 
-    // Método para agregar un elemento al final de la lista
+    
     public void add(T data) {
         Node<T> newNode = new Node<>(data);
 
@@ -52,7 +51,7 @@ public class CustomLinkedList<T> implements Iterable<T> {
         @Override
         public T next() {
             if (!hasNext()) {
-                // Puedes manejar esto según tus necesidades (lanzar una excepción, etc.)
+                
                 return null;
             }
 
