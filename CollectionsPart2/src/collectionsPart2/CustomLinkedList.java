@@ -13,7 +13,7 @@ public class CustomLinkedList<T> implements Iterable<T> {
         this.tail = null;
     }
 
-    // Método para agregar un elemento al final de la lista
+   
     public void add(T data) {
         Node<T> newNode = new Node<>(data);
 
@@ -26,7 +26,7 @@ public class CustomLinkedList<T> implements Iterable<T> {
         }
     }
 
-    // Implementación del iterador
+    
     @Override
     public Iterator<T> iterator() {
         return new Iterator<T>() {
@@ -51,7 +51,7 @@ public class CustomLinkedList<T> implements Iterable<T> {
         };
     }
 
-    // Clase interna para representar los nodos de la lista
+    
     private static class Node<T> {
         T data;
         Node<T> next;
