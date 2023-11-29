@@ -1,0 +1,3 @@
+This is a sample text file for word count analysis.
+It contains some words, and the goal is to count the number of unique words.
+Feel free to modify this text or add more sentences.
